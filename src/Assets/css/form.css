@@ -1,0 +1,25 @@
+.login-form {
+    display:table;
+    margin:auto;
+    top: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid green
+}
+
+h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+h5{
+    text-align: center;
+}
+
+.error{
+    color: #f53d3d;
+    text-align: right;
+    font-size: 14px;
+}
