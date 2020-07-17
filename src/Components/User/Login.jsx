@@ -59,7 +59,7 @@ function Login({history}) {
       }
     }
     setError(error);
-    return error;
+    return isValid;
   }
 
   /* Function - handleSubmit - Submit Login form and redirection */
