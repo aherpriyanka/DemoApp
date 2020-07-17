@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from "../../Comman/Header";
+
 
 function Home() {
   const loginUserEmail = sessionStorage.getItem("loginUser");
@@ -10,8 +12,7 @@ function Home() {
      <div className="user-block">
        <h4>{`${"Hello "}${loginUser}`} </h4>
        <h5>Let's manage Product List </h5>
-       <i className="product-icon fa fa-pencil-square-o"></i>
-       
+       <Link to="/product"><i className="product-icon fa fa-pencil-square-o"></i></Link>
      </div>
      </>
   );

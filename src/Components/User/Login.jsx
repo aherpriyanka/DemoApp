@@ -64,7 +64,6 @@ function Login({history}) {
     if(validate(form)){
       if (form.email && form.password) {
         sessionStorage.setItem("loginUser", form.email);
-        console.log("in:", history)
         swal("Login Successful");
         history.push('/home');
       }
@@ -74,7 +73,7 @@ function Login({history}) {
   return (
     <div className="col-12">
       <h4>Product Log</h4>
-      <form className="col-12 col-lg-4 login-form" onSubmit={handleSubmit}>
+      <form className="col-12 col-lg-4 center-block" onSubmit={handleSubmit}>
         <h5>Log In </h5>
         <div className="form-group text-left">
           <label htmlFor="email-address">Email address</label>

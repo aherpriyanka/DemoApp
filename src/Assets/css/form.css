@@ -1,4 +1,4 @@
-.login-form {
+.center-block {
     display:table;
     margin:auto;
     top: 50px;
@@ -22,4 +22,11 @@ h5{
     color: #f53d3d;
     text-align: right;
     font-size: 14px;
+}
+
+.thead {
+    background-color: rgb(206, 247, 206);
+}
+.delete-link{
+    cursor: pointer;
 }
