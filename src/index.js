@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import './Assets/css/form.css';
 import './Assets/css/product.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>

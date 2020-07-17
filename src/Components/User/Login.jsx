@@ -13,6 +13,8 @@ const initialState = {
 function Login({history}) {
   const [form, setForm] = useState({ initialState });
   const [error, setError] = useState(initialState);
+
+  /* Function - handle Change - For input fileds values */
   const handleChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
@@ -21,6 +23,7 @@ function Login({history}) {
     validate(form, name);
   };
 
+   /* Function - validate - For vaidation of email / password */
   function validate(form, fieldName) {
     let error = {};
     let isValid = true;
@@ -59,6 +62,7 @@ function Login({history}) {
     return error;
   }
 
+  /* Function - handleSubmit - Submit Login form and redirection */
   const handleSubmit = (event) => {
     event.preventDefault();
     if(validate(form)){

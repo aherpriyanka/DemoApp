@@ -27,6 +27,7 @@ h5{
 .thead {
     background-color: rgb(206, 247, 206);
 }
+
 .delete-link{
     cursor: pointer;
 }
